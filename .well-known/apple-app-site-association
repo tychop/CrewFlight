@@ -9,27 +9,27 @@
                 ],
                 "components": [
                     {
-                        "/": "/flightapp/test/*",
+                        "/": "/flight-app/test/*",
                         "comment": "Matches any URL whose path starts with /pathA/"
                     },
                     {
-                        "/": "/flightapp/test/initialize",
+                        "/": "/flight-app/test/initialize",
                         "comment": "Matches initialization endpoint for key exchange and authentication"
                     },
                     {
-                        "/": "/flightapp/test/handle-payment-result",
+                        "/": "/flight-app/test/handle-payment-result",
                         "comment": "Matches payment result endpoint for receiving payment status"
                     },
                     {
-                        "/": "/flightapp/live/*",
+                        "/": "/flight-app/live/*",
                         "comment": "Matches any URL whose path starts with /pathA/"
                     },
                     {
-                        "/": "/flightapp/live/initialize",
+                        "/": "/flight-app/live/initialize",
                         "comment": "Matches initialization endpoint for key exchange and authentication"
                     },
                     {
-                        "/": "/flightapp/live/handle-payment-result",
+                        "/": "/flight-app/live/handle-payment-result",
                         "comment": "Matches payment result endpoint for receiving payment status"
                     }
                 ]
