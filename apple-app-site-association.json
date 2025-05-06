@@ -1,0 +1,40 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": ["L2UZ78ZJAN.com.klm.UniversalLinksPOC.AppA"],
+                "components": [
+                    {
+                        "/": "/pathA/*",
+                        "comment": "Matches any URL whose path starts with /pathA/"
+                    },
+                    {
+                        "/": "/pathA/initialize",
+                        "comment": "Matches initialization endpoint for key exchange and authentication"
+                    },
+                    {
+                        "/": "/pathA/handle-payment-result",
+                        "comment": "Matches payment result endpoint for receiving payment status"
+                    }
+                ]
+            },
+            {
+                "appIDs": ["L2UZ78ZJAN.com.klm.UniversalLinksPOC.AppB"],
+                "components": [
+                    {
+                        "/": "/pathB/*",
+                        "comment": "Matches any URL whose path starts with /pathB/"
+                    },
+                    {
+                        "/": "/pathB/initialize",
+                        "comment": "Matches initialization endpoint for key exchange and authentication"
+                    },
+                    {
+                        "/": "/pathB/perform-payment",
+                        "comment": "Matches payment endpoint for processing payment requests"
+                    }
+                ]
+            }
+        ]
+    }
+}
