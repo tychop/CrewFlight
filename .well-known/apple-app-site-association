@@ -10,7 +10,7 @@
                 "components": [
                     {
                         "/": "/flight-app/test/*",
-                        "comment": "Matches any URL whose path starts with /pathA/"
+                        "comment": "Matches any URL whose path starts with /flight-app/test/"
                     },
                     {
                         "/": "/flight-app/test/initialize",
@@ -39,7 +39,7 @@
                 "components": [
                     {
                         "/": "/payment-app/test/*",
-                        "comment": "Matches any URL whose path starts with /pathB/"
+                        "comment": "Matches any URL whose path starts with /payment-app/test/"
                     },
                     {
                         "/": "/payment-app/test/initialize",
