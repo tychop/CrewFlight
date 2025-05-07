@@ -22,7 +22,7 @@
                     },
                     {
                         "/": "/flight-app/live/*",
-                        "comment": "Matches any URL whose path starts with /pathA/"
+                        "comment": "Matches any URL whose path starts with /flight-app/live/"
                     },
                     {
                         "/": "/flight-app/live/initialize",
@@ -51,7 +51,7 @@
                     },
                     {
                         "/": "/payment-app/live/*",
-                        "comment": "Matches any URL whose path starts with /pathB/"
+                        "comment": "Matches any URL whose path starts with /payment-app/live/"
                     },
                     {
                         "/": "/payment-app/live/initialize",
