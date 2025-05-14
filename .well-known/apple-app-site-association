@@ -35,7 +35,11 @@
                 ]
             },
             {
-                "appIDs": ["L2UZ78ZJAN.com.klm.UniversalLinksPOC.AppB"],
+                "appIDs": [
+			"L2UZ78ZJAN.com.klm.UniversalLinksPOC.AppB",
+			"ERJWNH5CC4.com.immflyretail.payment.uat",
+			"ERJWNH5CC4.com.immflyretail.payment.debug"
+		],
                 "components": [
                     {
                         "/": "/payment-app/test/*",
