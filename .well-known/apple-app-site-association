@@ -4,65 +4,40 @@
             {
                 "appIDs": [
 	                "L2UZ78ZJAN.com.klm.mobile.iphone.myflight",
-	                "L2UZ78ZJAN.com.klm.mobile.iphone.myflight.test",
 	                "L2UZ78ZJAN.com.klm.UniversalLinksPOC.AppA"
                 ],
                 "components": [
                     {
-                        "/": "/flight-app/test/*",
+                        "/": "/flight-app/*",
                         "comment": "Matches any URL whose path starts with /flight-app/test/"
                     },
                     {
-                        "/": "/flight-app/test/initialize",
+                        "/": "/flight-app/initialize",
                         "comment": "Matches initialization endpoint for key exchange and authentication"
                     },
                     {
-                        "/": "/flight-app/test/handle-payment-result",
-                        "comment": "Matches payment result endpoint for receiving payment status"
-                    },
-                    {
-                        "/": "/flight-app/live/*",
-                        "comment": "Matches any URL whose path starts with /flight-app/live/"
-                    },
-                    {
-                        "/": "/flight-app/live/initialize",
-                        "comment": "Matches initialization endpoint for key exchange and authentication"
-                    },
-                    {
-                        "/": "/flight-app/live/handle-payment-result",
+                        "/": "/flight-app/handle-payment-result",
                         "comment": "Matches payment result endpoint for receiving payment status"
                     }
                 ]
             },
             {
                 "appIDs": [
-			"L2UZ78ZJAN.com.klm.UniversalLinksPOC.AppB",
 			"ERJWNH5CC4.com.immflyretail.payment.uat",
-			"ERJWNH5CC4.com.immflyretail.payment.debug"
+			"ERJWNH5CC4.com.immflyretail.payment.debug",
+			"L2UZ78ZJAN.com.klm.UniversalLinksPOC.AppB"
 		],
                 "components": [
                     {
-                        "/": "/payment-app/test/*",
+                        "/": "/payment-app/*",
                         "comment": "Matches any URL whose path starts with /payment-app/test/"
                     },
                     {
-                        "/": "/payment-app/test/initialize",
+                        "/": "/payment-app/initialize",
                         "comment": "Matches initialization endpoint for key exchange and authentication"
                     },
                     {
-                        "/": "/payment-app/test/perform-payment",
-                        "comment": "Matches payment endpoint for processing payment requests"
-                    },
-                    {
-                        "/": "/payment-app/live/*",
-                        "comment": "Matches any URL whose path starts with /payment-app/live/"
-                    },
-                    {
-                        "/": "/payment-app/live/initialize",
-                        "comment": "Matches initialization endpoint for key exchange and authentication"
-                    },
-                    {
-                        "/": "/payment-app/live/perform-payment",
+                        "/": "/payment-app/perform-payment",
                         "comment": "Matches payment endpoint for processing payment requests"
                     }
                 ]
